@@ -1,140 +1,138 @@
     body {
-            background-color: rgb(0, 0, 33);
-            color: white;
-            display: full;
+        background-color: rgb(0, 0, 33);
+        color: white;
+        display: full;
 
-        }
+    }
 
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 50px;
-            background-color: rgb(23, 60, 73);
-        }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        background-color: rgb(23, 60, 73);
+    }
 
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
 
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
-        }
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
 
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
 
-        nav ul li a:hover {
-            color: rgb(156, 10, 105);
-            font-size: 1.4rem;
-        }
+    nav ul li a:hover {
+        color: rgb(156, 10, 105);
+        font-size: 1.4rem;
+    }
 
-        main hr {
-            border: 0;
-            background: rgb(48, 48, 99);
-            height: 1.1px;
-            margin: 40px 84px;
-        }
+    main hr {
+        border: 0;
+        background: rgb(48, 48, 99);
+        height: 1.1px;
+        margin: 40px 84px;
+    }
 
-        .left {
-            font-size: 19px;
-        }
+    .left {
+        font-size: 19px;
+    }
 
-        .firstsection {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 43px 0px;
-
-
-        }
-
-        .firstsection>div {
-            width: 30%;
-
-        }
-
-        .leftsection {
-            font-size: 2rem;
-        }
-
-        .leftsection .buttons {
-            padding: 13px
-        }
-
-        .leftsection .btn {
-            padding: 9px;
-            background-color: rgb(11, 2, 38) ;
-            color: rgb(116, 10, 191);
-            border: 2px solid rgb(8, 113, 161);
-            border-radius: 5px;
-            font-size: 15px;
-            cursor:  pointer;
-
-        }
-
-        .rightsection img {
-            width: 228px;
-            margin: 50px;
-            background-color: blue;
-        }
-
-        .purple {
-            color: blueviolet;
-        }
-
-        #element {
-            color: rgb(107, 9, 199);
-        }
-
-        .secondsection {
-            max-width: 80vw;
-            margin: auto;
-        }
-
-        .secondsection .box {
-            background: white;
-            width: 80vw;
-            height: 2px;
-            margin: 26px 0;
-            display: flex;
-
-        }
-
-        .secondsection .vertical {
-            height: 90px;
-            width: 1px;
-            background-color: white;
-            margin: 0 100px;
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 43px 0px;
 
 
-        }
+    }
 
-        .vertical-title {
-            position: relative;
-            top: 95px;
-            width: 150px;
-        }
+    .firstsection>div {
+        width: 30%;
 
-        .vertical-desc {
-            position: relative;
-            top: 116px;
-            color: gray;
-            width: 150px;
-            font-size: 9px;
-        }
+    }
 
-        /*footer{
-            background-color: rgb(45, 111, 169);
-            top: 44px;
-            height;
-        }
-        .footer{
-            display:flex;
-            height: 55px;
-        }*/
+    .leftsection {
+        font-size: 2rem;
+    }
 
+    .leftsection .buttons {
+        padding: 13px
+    }
+
+    .leftsection .btn {
+        padding: 9px;
+        background-color: rgb(11, 2, 38);
+        color: rgb(116, 10, 191);
+        border: 2px solid rgb(8, 113, 161);
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+
+    .rightsection img {
+        width: 228px;
+        margin: 50px;
+        background-color: blue;
+    }
+
+    .purple {
+        color: blueviolet;
+    }
+
+    #element {
+        color: rgb(107, 9, 199);
+    }
+
+    .secondsection {
+        max-width: 80vw;
+        margin: auto;
+    }
+
+    .secondsection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 26px 0;
+        display: flex;
+
+    }
+
+    .secondsection .vertical {
+        height: 90px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+
+
+    }
+
+    .vertical-title {
+        position: relative;
+        top: 95px;
+        width: 150px;
+    }
+
+    .vertical-desc {
+        position: relative;
+        top: 116px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+    }
+
+    /*.footer {
+        background-color: rgb(45, 111, 169);
+        top: 44px;
+        display: flex;
+        height: 171px;
+        padding: 7px;
+        margin: 196px;
+    }*/
